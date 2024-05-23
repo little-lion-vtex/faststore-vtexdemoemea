@@ -12,6 +12,7 @@ export function CustomBuyButton() {
                     Product Name: ${context.data.product.isVariantOf.name}
                     \nSKU Name: ${context.data.product.name}
                     \nSKU ID: ${context.data.product.id}
+                    \nSKU ID: ${context.data.product.customData}
                 `)
             }}
         >
